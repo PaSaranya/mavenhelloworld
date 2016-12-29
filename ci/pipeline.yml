@@ -3,7 +3,7 @@ resources:
     type: git
     source:
       uri: https://github.com/PaSaranya/ownmavenhelloworld.git
-      branch: master
+     
  
  
 jobs:
