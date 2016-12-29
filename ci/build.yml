@@ -8,10 +8,10 @@ image_resource:
     tag: latest
     
 inputs:
-  - name: ownmavenhelloworld
+  - name: mavenhelloworld
   
 outputs:
   - name: resource-app
   
 run:
-  path: ownmavenhelloworld/ci/build.sh
+  path: mavenhelloworld/ci/build.sh
