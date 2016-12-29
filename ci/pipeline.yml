@@ -2,7 +2,7 @@ resources:
   - name: ownmavenhelloworld
     type: git
     source:
-      uri: https://github.com/PaSaranya/ownmavenhelloworld.git
+      uri: https://github.com/PaSaranya/mavenhelloworld.git
      
  
  
@@ -14,4 +14,4 @@ jobs:
      
       - task: build
         privileged: true
-        file: ownmavenhelloworld/ci/build.yml
+        file: mavenhelloworld/ci/build.yml
