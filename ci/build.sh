@@ -2,7 +2,7 @@
 
 set -e -x
 
-git clone ownmavenhelloworld resource-app
+git clone mavenhelloworld resource-app
 echo "creating file"
 cd resource-app
 echo "created the file"
