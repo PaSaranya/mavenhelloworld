@@ -1,0 +1,17 @@
+resources:
+  - name: ownmavenhelloworld
+    type: git
+    source:
+      uri: https://github.com/PaSaranya/ownmavenhelloworld.git
+      branch: master
+ 
+ 
+jobs:
+  - name: build
+    plan:
+      - get: ownmavenhelloworld
+        trigger: true
+     
+      - task: build
+        privileged: true
+        file: ownmavenhelloworld/ci/build.yml
